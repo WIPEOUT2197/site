@@ -1,0 +1,172 @@
+/* Slider
+http://www.freshdesignweb.com/free-beautiful-css3-table-style.html
+*/
+#fdw-pricing-table-comp {
+		margin:0 auto;
+		text-align: center;
+
+		zoom: 1;
+	}
+
+	#fdw-pricing-table-comp:before, #fdw-pricing-table-comp:after {
+	  content: "";
+	  display: table
+	}
+
+	#fdw-pricing-table-comp:after {
+	  clear: both
+	}
+
+	/* --------------- */	
+
+	#fdw-pricing-table-comp .plan {
+		font: 13px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;     
+		background: #fff;      
+		border: 1px solid #ddd;
+		color: #333;
+		padding: 20px;
+		height:600px;
+		width: 455px;
+		float: left;
+		_display: inline; /* IE6 double margin fix */
+		position: relative;
+		margin: 0 5px;
+		-moz-box-shadow: 0 2px 2px -1px rgba(0,0,0,.3);
+		-webkit-box-shadow: 0 2px 2px -1px rgba(0,0,0,.3);
+		box-shadow: 0 2px 2px -1px rgba(0,0,0,.3);		
+	}
+
+	#fdw-pricing-table-comp .plan:after {
+	  z-index: -1; 
+	  position: absolute; 
+	  content: "";
+	  bottom: 10px;
+	  right: 4px;
+	  width: 80%; 
+	  top: 80%; 
+	  -webkit-box-shadow: 0 12px 5px rgba(0, 0, 0, .3);   
+	  -moz-box-shadow: 0 12px 5px rgba(0, 0, 0, .3);
+	  box-shadow: 0 12px 5px rgba(0, 0, 0, .3);
+	  -webkit-transform: rotate(3deg);    
+	  -moz-transform: rotate(3deg);   
+	  -o-transform: rotate(3deg);
+	  -ms-transform: rotate(3deg);
+	  transform: rotate(3deg);	
+	}	
+	
+	#fdw-pricing-table-comp .popular-plan {
+		top: -20px;
+		padding: 40px 20px;   
+	}
+	
+	/* --------------- */	
+
+	#fdw-pricing-table-comp .header2 {
+		position: relative;
+		font-size: 20px;
+		font-weight: normal;
+		text-transform: uppercase;
+		padding: 40px;
+		margin: -20px -20px 20px -20px;
+		border-bottom: 8px solid;
+		background-color: #eee;
+		background-image: -moz-linear-gradient(#fff,#eee);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));    
+		background-image: -webkit-linear-gradient(#fff, #eee);
+		background-image: -o-linear-gradient(#fff, #eee);
+		background-image: -ms-linear-gradient(#fff, #eee);
+		background-image: linear-gradient(#fff, #eee);
+	}
+
+	#fdw-pricing-table-comp .header2:after {
+		position: absolute;
+		bottom: -8px; left: 0;
+		height: 3px; width: 100%;
+		content: '';
+		background-image: url(images/bar.png);
+	}
+	
+	#fdw-pricing-table-comp .popular-plan .header2 {
+		margin-top: -40px;
+		padding-top: 60px;		
+	}
+
+	#fdw-pricing-table-comp .plan1 .header2{
+		border-bottom-color: #B3E03F;
+		height:120px;
+	}
+
+	#fdw-pricing-table-comp .plan2 .header2{
+		border-bottom-color: orange;
+		height:120px;
+	}
+
+	#fdw-pricing-table-comp .plan3 .header2{
+		border-bottom-color: black;
+		height:120px;
+	}
+		#fdw-pricing-table-comp .plan6 .header2{
+		border-bottom-color: black;
+		height:120px;
+	}
+
+	#fdw-pricing-table-comp .plan4 .header2{
+		border-bottom-color: #3AD5A0;
+		height:120px;
+	}	
+	#fdw-pricing-table-comp .plan5 .header2{
+		border-bottom-color: red;
+		height:120px;
+	}			
+	
+	/* --------------- */
+
+	#fdw-pricing-table-comp .price{
+		font-size: 24px;
+	}
+
+	#fdw-pricing-table-comp .monthly{
+		font-size: 13px;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		color: #999;
+	}
+
+	/* --------------- */
+
+	#fdw-pricing-table-comp ul {
+		margin: 20px 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	#fdw-pricing-table-comp li {
+		padding: 7px 0;
+	}
+	
+	/* --------------- */
+		
+
+
+	#fdw-pricing-table-comp .signup:hover {
+		opacity: 1;       
+	}
+
+	#fdw-pricing-table-comp .signup:active {
+		-moz-box-shadow: 0 2px 2px rgba(0,0,0,.3) inset;
+		-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.3) inset;
+		box-shadow: 0 2px 2px rgba(0,0,0,.3) inset;       
+	}			
+
+	
+	/* end --------------- */
+@media screen and (max-width: 980px) and (min-width: 768px) {
+ 
+
+}
+ 
+@media screen and (max-width: 768px) {
+     
+   
+   
+}

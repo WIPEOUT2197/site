@@ -1,0 +1,122 @@
+/*
+	Prologue 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body,input,textarea,select
+	{
+		font-size: 17pt;
+	}
+	
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		width: 335px;
+	}
+	
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+		margin-left: 300px;
+	}
+	
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		margin-left: 300px;
+	}
+
+/**************** CUSTOMWIPE **************************/
+#fdw-pricing-table .plan {
+
+	width:590px !important;
+}
+
+#fdw-pricing-table-comp .plan {
+
+	width:590px !important;
+}
+
+#fdw-pricing-table .plan6 {
+	margin-top:10px !important;
+
+}
+#fdw-pricing-table .plan2 {
+	margin-top:10px !important;
+	left:-600px !important;
+
+}
+
+#fdw-pricing-table .plan4 {
+	margin-top:-600px !important;
+	left:600px !important;
+
+}
+
+#main > section.three{
+	height:1800px !important;
+}
+
+#fdw-pricing-table .plan1 .signup {
+
+	top:68px !important;
+}
+
+#fdw-pricing-table .plan5 .signup {
+
+	top:153px !important;
+}
+
+#fdw-pricing-table .plan6 .signup {
+
+	top:153px !important;
+}
+
+#fdw-pricing-table .plan2 .signup {
+
+	top:7px !important;
+}
+#fdw-pricing-table .plan4 .signup {
+
+	top:169px !important;
+}
+#main > section.two {
+	padding-top:0px !important;
+}
+#main > section.three {
+
+	padding-top:0px !important;
+}
+
+#main > section.three .image {
+
+	margin-left:-64px;
+	overflow: hidden !important;
+	width: 120% !important;
+	height: 240px;
+}
+#fdw-pricing-table-comp .plan6 {
+	top:10px !important;
+}
+
+#fdw-pricing-table-comp .plan4 {
+	top:22px !important;
+}
+
+#fdw-pricing-table-comp .plan2 {
+	top:17px !important;
+}

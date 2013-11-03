@@ -1,0 +1,162 @@
+/*
+	Prologue 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body,input,textarea,select
+	{
+		font-size: 14pt;
+	}
+
+	h2
+	{
+		font-size: 1.5em;
+		letter-spacing: 0;
+		font-weight: 300;
+	}
+
+	.container
+	{
+		padding: 0 15px 0 15px;
+	}
+
+	.image.featured
+	{
+		position: relative;
+		min-height: 10em;
+		overflow: hidden;
+	}
+	
+		.image.featured img
+		{
+			position: relative;
+			height: 10em;
+			width: auto;
+			/*
+				Stuff below is automatically calculated using JS. It sucks, but there
+				doesn't appear to be a way to center the <img> inside its parent with
+				pure CSS (since we don't know its width).
+			
+				left: 0;
+				margin-left: 0;
+			*/
+		}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+	}
+	
+		#main > section
+		{
+			padding: 2em 0 2em 0;
+		}
+
+
+#fdw-pricing-table .plan {
+
+width:300px !important;
+}
+
+#fdw-pricing-table-comp .plan {
+
+	width:300px !important;
+}
+#fdw-pricing-table .plan3 img {
+	margin-left:-30px !important;
+
+}
+
+
+#fdw-pricing-table .plan6 img {
+	margin-left:-30px !important;
+
+}
+
+#fdw-pricing-table .plan1  {
+	margin-top:10px !important;
+
+}
+
+#fdw-pricing-table .plan6  {
+	margin-top:10px !important;
+
+}
+
+#fdw-pricing-table .plan4  {
+	margin-top:10px !important;
+
+}
+
+#fdw-pricing-table .plan2  {
+	margin-top:15px !important;
+	height:715px !important;
+
+}
+
+#fdw-pricing-table .plan3 .signup {
+
+top: 17px !important;
+}
+
+#fdw-pricing-table .plan1 .signup {
+
+top: 18px !important;
+}
+
+#fdw-pricing-table .plan5 .signup {
+
+top: 122px !important;
+}
+
+#fdw-pricing-table .plan4 .signup {
+
+top: 150px !important;
+}
+
+#fdw-pricing-table-comp .header2 {
+padding: 27px !important;
+	}
+
+	#main > section.three{
+
+		height:3000px !important;
+	}
+
+	#fdw-pricing-table-comp .plan1 {
+margin-top:10px !important;
+}
+
+	#fdw-pricing-table-comp .plan2 {
+top:23px !important;
+}
+
+	#fdw-pricing-table-comp .plan6 {
+margin-top:10px !important;
+}
+
+
+	#fdw-pricing-table-comp .plan4 {
+top:37px !important;
+}
+
+.imgOracle{
+
+	display:none !important;
+}
+
+#title {
+	font-size:14px !important;
+}
+
+#logoHeader{
+	height:210px !important;
+}
